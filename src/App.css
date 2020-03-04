@@ -1,0 +1,69 @@
+body{
+  background-image: url("https://lh3.googleusercontent.com/proxy/iHiachhNbjYqtcXCJk3P7BgdhSYVJLm5rpIL7CesRVlH3KZ8HAllzE1lBbWQtRkt9mmA3KvOgibfUuYWa3QjFH3Ca-j8pSqj7TE1lXZ8pTynY1Xi");
+  background-size: cover;
+  background-color: transparent;
+
+}
+
+
+.container{
+  display: flex; 
+  justify-content: space-around;
+  border-radius:8px ;
+  margin-top:50px;
+  
+  
+}
+.card{
+   background: #124164;
+   border: 1 solid  #124164;
+   width:420px; 
+  border-radius:8px ;
+  position: relative;
+  height: 250px;
+  background-image: url("https://storage.semalt.com/uploads/articles/ec790c0d6e7cb8e2a94b08cbf85cf2190.jpg");
+  background-size: cover;
+  background-color: transparent;
+}
+.card h3{
+  position: absolute;
+  right: 11px;
+  top:10px;
+  display: flex;
+  justify-content: right;
+ color:wheat;
+}
+.img{
+  position: absolute;
+  left: 5%;
+  top:20%;
+ 
+}
+.logo{
+  position: absolute;
+  bottom: 9%;
+  right: 9%;
+}
+.card-numb{
+  position: absolute;
+  bottom:40%;
+  left: 20%;
+  color: white;
+}
+.section h6{
+  position: absolute;
+  bottom:25%;
+  right: 45%;
+  color: white;
+}
+.name{
+  position: absolute;
+  bottom:10%;
+ left: 10%;
+  color: white;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
